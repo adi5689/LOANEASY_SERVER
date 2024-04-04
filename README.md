@@ -23,9 +23,8 @@ The LOANEASY SERVER System is a web application designed to manage loans, repaym
 2. Navigate to the project directory: `cd loan-management-system`
 3. Install dependencies: `npm install`
 4. Create a `.env` file in the root directory and add your MongoDB URI and JWT secret:
-    ```MONGODB_URI=your_mongodb_uri```
-    ```JWT_SECRET=your_jwt_secret```
-5. 5. Start the server: `npm start`
+    ```MONGODB_URI=your_mongodb_uri, JWT_SECRET=your_jwt_secret```
+6. 5. Start the server: `npm start`
 
 ## Usage
 The application runs on port 4000 by default. You can access the API endpoints using tools like Postman or through the frontend application.
